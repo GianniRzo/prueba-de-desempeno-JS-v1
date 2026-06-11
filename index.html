@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Mágico 🎬</title>
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+    
+    <!-- Barra de navegación superior fija -->
+    <nav class="bg-indigo-600 text-white p-4 flex justify-between items-center shadow-md">
+        <a href="#/cartelera" class="text-xl font-bold tracking-wider">🎬 CINE MÁGICO</a>
+        <div id="menu-navegacion" class="flex gap-4">
+            <!-- Los botones de navegación aparecerán aquí dinámicamente -->
+        </div>
+    </nav>
+
+    <!-- El lienzo mágico donde cambia todo el contenido -->
+    <main id="app" class="container mx-auto my-6 p-4"></main>
+
+    <!-- Conectamos nuestro interruptor de encendido principal -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
